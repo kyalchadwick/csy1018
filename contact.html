@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Kyal Chadwick, 16433003-->
+    <meta charset="utf-8">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <script>
+        function mouseover(img, n) {
+            img.src = "images/button" + n + "a.png";
+        }
+
+        function mouseout(img, n) {
+            img.src = "images/button" + n + ".png";
+        }
+    </script>
+</head>
+<header>
+</header>
+
+<body>
+    <div class="buttononbar">
+        <h1 class="logo-text">Contact Me <br>
+      <a href="index.html"><img src="images/Button1.png" alt="Home Page" onmouseover="mouseover(this,1)" onmouseout="mouseout(this,1)"></a>
+      <a href="bio.html"><img src="images/Button2.png" alt="Bio Page" onmouseover="mouseover(this,2)" onmouseout="mouseout(this,2)"></a>
+      <a href="cv.html"><img src="images/Button3.png" alt="CV Page" onmouseover="mouseover(this,3)" onmouseout="mouseout(this,3)"></a>
+      <a href="contact.html"><img src="images/Button4.png" alt="Contact Page" onmouseover="mouseover(this,4)" onmouseout="mouseout(this,4)"></a>
+  </h1></div>
+    <div class="middle">
+        <section>
+            <br> Use the form below to send me an E-mail.<br><br>
+            <form action="mailto:kyal_chadwick@aol.com" method="post" enctype="text/plain">
+                First Name:<br>
+                <input type="text" name="first name"><br> Surname Name:<br>
+                <input type="text" name="surname name"><br> Your E-mail:<br>
+                <input type="text" name="mail" placeholder="Enter your email"><br> Message:
+                <br>
+                <input type="text" name="comment" size="100" placeholder="please enter your message"><br><br>
+                <input type="submit" value="Send E-mail">
+                <input type="reset" value="Reset">
+            </form>
+        </section><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    </div>
+    <footer>
+        <div class="footer">.</div>
+    </footer>
+</body>
+
+</html>
