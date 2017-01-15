@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Kyal Chadwick, 16433003-->
+    <meta charset="utf-8">
+    <title>My webpage</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <script>
+        function mouseover(img, n) {
+            img.src = "images/button" + n + "a.png";
+        }
+
+        function mouseout(img, n) {
+            img.src = "images/button" + n + ".png";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="buttononbar">
+        <h1 class="logo-text">Home <br>
+    <a href="index.html"><img src="images/Button1.png" alt="Home Page" onmouseover="mouseover(this,1)" onmouseout="mouseout(this,1)"></a>
+    <a href="bio.html"><img src="images/Button2.png" alt="Bio Page" onmouseover="mouseover(this,2)" onmouseout="mouseout(this,2)"></a>
+    <a href="cv.html"><img src="images/Button3.png" alt="CV Page" onmouseover="mouseover(this,3)" onmouseout="mouseout(this,3)"></a>
+    <a href="contact.html"><img src="images/Button4.png" alt="Contact Page" onmouseover="mouseover(this,4)" onmouseout="mouseout(this,4)"></a>
+</h1></div>
+    <div class="middle">
+        <section>
+
+            <h1 class="body-text">Kyal Chadwick<br />
+<img src="images/me1.png" alt="Kyal Chadwick" />
+<br />
+You can find my <a href="cv.html">CV here</a>
+<br>Also a short bio about me <a href="bio.html">here</a>
+</h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </section>
+    </div>
+    <div class="footer">.</div>
+</body>
+
+</html>
